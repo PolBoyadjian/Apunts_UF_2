@@ -110,62 +110,55 @@
      - AfterAll
      - Ignore
  
-# Llenguatge de programació
+# Integración
 
-## Codi executable
+## Formas de integración
 
-- Compila o interpreta
- - Compila/interpreta del codi font es fa:
-  - Anàlisis léxic
-  - Anàlisis sintactic
- - Un codi font correctament escrit no significa que funcioni segons lo desitjat
- - No es realitza un alàlisis semantic
+- Bib bang
+- Descendente
+- Ascendente
+- Continua
  
-## Llenguatjes compilats
+## Integración continua
 
-- Exemples
- - C
- - C++
-- Ventatja:
- - Execució molt eficient
-- Desventatja:
- - Es necesari compilar cada vegada que el codi font es modifiqui
+- Jenkins
+- Bamboo
+- TravisCI
+- CircleCI
  
-## Llenguatje interpretat
+## Cobertura del código
 
-- Exemples
- -PHP
- -Javascripts
-- Ventatja
- - El codi font s'interpreta directament
-- Desventatja
- - Execució menys eficient
+- Indica el código que ha sido ejecutado durante las prubas
+- Aconsejable que sea lo más cercano a 100%
+- Si es 100% se ha ejecutado todo
+- Si es menor no se ha ejecutado todo
+- Se puede realizar la cobertura desde el IDE o servicio web
 
-## Java
-- Llenguatje compilat e interpretat
-- Codi font Java es compila i s'obte un bytecode
-- Després el bytecode s'interpreta per executarlo
-- Ventatjes:
- - Estructurat i orientada a objectes
- - Facil d'apredre
- - Buna documentació i base d'usuaris
-- Desventatjes:
- - Menys eficient que lleguatjes compilats
+# Calidad
 
-## Tipus
-- Segons la forma en la que operan:
- - Declaratius: Indiquem el resultat a obtenir sense especifiar els pasos
-  - Lógics: Utilitza normes (Prolog)
-  - Funcionals: Utilitza funcions (Lisp, Haskell)
-  - Algebraics: Utilitza sentencies (SQL)
- - Normalment son lleguatjes interpretats
- - Imperatius: Indiquem els pasos a seguir per obtenir el resultat
-  - Estructurats: (C)
-  - Orientat a objectes: (Java)
-  - Multiparadigma: (C++, Javascript)
- - Llenguatjes orientats a objectes son també lleguatjes estructurats
- - Molts son compilats
- - Abstracció
-  - Baix nivell: Ensamblador
-  - Mitj nivell: C
-  - Alt nivell: C++, Java
+## Proceso/Producto
+
+- QA garantiza la calidad en los procesos por los cuales se desarrollan los productos
+- QC garantiza la calidad de los productos, se centran en identificar los defectos producidos
+
+## Factores de calidad
+- Operación
+- Revisión
+- Transición
+
+## Operación del producto
+- Corrección
+- Fiabilidad
+- Eficiencia
+- Seguridad
+- Facilidad de uso
+
+## Revisión
+- Mantenibilidad
+- Flexibilidad
+- Facilidad de prueba
+
+## Transición
+- Portabilidad
+- Reusabilidad
+- Interoperatividad
